@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/main_padding_left"
+    android:paddingRight="@dimen/main_padding_right">
+
+    <TextView
+        android:id="@+id/txAct2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/act_2"
+        android:textSize="@dimen/main_text_size"
+        android:layout_marginTop="@dimen/padding_bottom"
+        android:layout_marginBottom="@dimen/padding_bottom"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btAct2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Move to Activity 3"/>
+
+</LinearLayout>
+
