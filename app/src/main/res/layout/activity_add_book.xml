@@ -1,0 +1,37 @@
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:paddingLeft="@dimen/main_padding_left"
+    android:paddingRight="@dimen/main_padding_right"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/tx_bookTitle"
+        android:hint="@string/hint_bk_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tx_margin_prev"/>
+
+    <EditText
+        android:id="@+id/tx_bookAuthor"
+        android:hint="@string/hint_bk_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx_bookTitle"/>
+
+    <EditText
+        android:id="@+id/tx_bookGenre"
+        android:hint="@string/hint_bk_genre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx_bookAuthor"/>
+
+    <Button
+        android:id="@+id/btn_addBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_add_book"
+        android:layout_marginTop="@dimen/tx_margin_prev"
+        android:layout_below="@+id/tx_bookGenre"/>
+
+</RelativeLayout>

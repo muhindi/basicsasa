@@ -3,4 +3,6 @@
     <color name="colorPrimary">#469f1a</color>
     <color name="colorPrimaryDark">#2e780a</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="login_text">#FFFFFF</color>
 </resources>
