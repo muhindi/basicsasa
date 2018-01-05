@@ -1,4 +1,5 @@
 <RelativeLayout
+        android:id="@+id/add_book_view"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:paddingLeft="@dimen/main_padding_left"

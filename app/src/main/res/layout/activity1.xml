@@ -19,11 +19,23 @@
         android:textStyle="bold"
         android:gravity="center"/>
 
+    <fragment android:layout_width="match_parent" android:layout_height="0dp"
+              android:layout_weight="1" android:id="@+id/viewer1"
+              android:name="gekos.org.basicsnow.FragOne"/>
+
     <Button
         android:id="@+id/btAct1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Move to Activity 2"/>
+
+    <Button
+        android:id="@+id/btFrgToggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tx_frag_hide"/>
+
+
 
 </LinearLayout>
 
