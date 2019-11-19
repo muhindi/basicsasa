@@ -1,8 +1,23 @@
 <resources>
-    <string name="app_name">BasicSasa</string>
-    <string name="act_1">Activity 1</string>
-    <string name="act_2">Activity 2</string>
-    <string name="act_3">Activity 3</string>
+	<string name="app_name">BasicSasa</string>
+	<string name="act_1">Activity 1</string>
+	<string name="act_2">Activity 2</string>
+	<string name="act_3">Activity 3</string>
+
+	<string name="username_hint">Enter username</string>
+	<string name="password_hint">Enter password</string>
+	<string name="btn_login">Login</string>
+
+	<!--add book form -->
+	<string name="hint_bk_title">Enter Book Title</string>
+	<string name="hint_bk_author">Enter book Author</string>
+	<string name="hint_bk_genre">Select Book Genre</string>
+	<string name="btn_add_book">Add Book</string>
+
+	<!-- TODO: Remove or change this placeholder text -->
+	<string name="hello_blank_fragment">A fragment added</string>
+	<string name="tx_frag_show">Show Fragment</string>
+	<string name="tx_frag_hide">Hide Fragment</string>
 
 
 </resources>
