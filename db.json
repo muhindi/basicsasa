@@ -2,7 +2,7 @@
    "status":"OK",
    "token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJHcmVlbmxpZ2h0Q2FzaGllclVzZXIiLCJNX1dhcmVob3VzZV9JRCI6MTAwMDAwMiwiQURfUm9sZV9JRCI6MTAwMDA4MiwiQURfVXNlcl9JRCI6MTAxODA0OSwiQURfT3JnX0lEIjoxMDAwMDAwLCJpc3MiOiJpZGVtcGllcmUub3JnIiwiZXhwIjoxNTc0NDM2ODQ5LCJBRF9DbGllbnRfSUQiOjEwMDAwMDB9.-sjiPnLk6FtqzB6DotqnaR3JlgdZgRUc3GGgAwG3pNQ",
    "userId":1018049,
-   "hasAcceptedTermsOfUse":true,
+   "hasAcceptedTermsOfUse":false,
    "clients":[
       {
          "id":1000000,
